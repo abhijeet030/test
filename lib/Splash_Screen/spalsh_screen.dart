@@ -7,6 +7,18 @@ class Spash extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.purple,
+      body: Column(
+        children: [
+          SizedBox(
+            height: 100,
+          ),
+          Text("Hi my name is Splash screen.",
+              style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 35,
+                  fontWeight: FontWeight.bold)),
+        ],
+      ),
     );
   }
 }
